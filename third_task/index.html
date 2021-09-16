@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="CssSheets/style.css" />
+    <link rel="icon" href="images/facebook-logo.png" type="image/x-icon" />
+    <title>facebook login demo</title>
+  </head>
+  <body>
+    <header>
+      <p id="facebook_label">facebook</p>
+      <div id="login-part">
+        <form action="">
+          <label for="email" id="emailLabel" class="label">Email</label>
+          <input type="email" name="" id="email" class="field" />
+
+          <label for="Password" id="passwordLabel" class="label"
+            >Password</label
+          >
+          <input type="password" name="" id="Password" class="field" />
+          <input type="submit" value="Login" id="submitButton" />
+        </form>
+      </div>
+    </header>
+
+    <div id="about">
+      <p>
+        facebook helpes you connect and share with <br />
+        the peolpe in your life.
+      </p>
+      <img src="images/f.png" alt="" />
+    </div>
+
+    <div id="sign-Up">
+      <p>Sign Up</p>
+      <p style="font-weight: normal">its free, and always will be.</p>
+      <br /><br />
+      <form action="" id="sign-Up-form">
+        <label id="flabel" for="firstName">First Name:</label>
+        <input type="text" id="firstName" class="field-sign-Up" /><br />
+
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" class="field-sign-Up" /><br />
+
+        <label for="email-sign-Up">Your Email:</label>
+        <input type="email" id="email-sign-Up" class="field-sign-Up" /><br />
+
+        <label style="margin-left: -25px" for="re-email">Re-enter-Email:</label>
+        <input type="email" id="re-email" class="field-sign-Up" /><br />
+
+        <label style="margin-left: -25px" for="password">New PassWord:</label>
+        <input type="password" id="password" class="field-sign-Up" /><br />
+
+        <label
+          id="gender_label"
+          style="width: 100px; margin-left: -160px"
+          for="gender"
+          >I am:</label
+        >
+        <select name="gender" id="gender" class="field-sign-Up">
+          <option value="fmale">fmale</option>
+          <option value="male">male</option></select
+        ><br />
+        <label style="width: 100px; margin-left: 20px" for="date"
+          >Birthday:</label
+        >
+        <input type="date" id="date" class="field-sign-Up" /><br />
+
+        <input id="sign-Up-button" type="submit" value="sign Up" />
+      </form>
+    </div>
+  </body>
+</html>
